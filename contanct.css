@@ -6,7 +6,9 @@ body {
   color: #fff;
   background-attachment: fixed;
 }
-
+.logo{
+  font-family: 'Times New Roman', Times, serif;
+}
 /* Navbar */
 .navbar {
   display: flex;
@@ -246,3 +248,4 @@ body {
     font-size: 0.9rem;
   }
 }
+
