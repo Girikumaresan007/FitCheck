@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitcheck</title>
+        <link rel="stylesheet" href="fit.css">
+        <script src="fit.js"></script>
+        <link rel="icon" href="https://img.freepik.com/premium-vector/fc-letter-logo-template-illustration-design_1026019-8769.jpg?w=200">
+    </head>
+    <body>
+        <div class="back-wrapper">
+           <button id="backBtn" type="button" onclick="window.location.href='home.html'">←</button>
+        </div>
+
+        <center>
+            <div class="container">
+                <form >
+                    <h2>FITCHECK</h2>
+
+                    <label class="namee" for="name">Name :</label>
+                    <input type="text" name="Name" id="name" placeholder="Please Enter The Name" required><br><br>
+
+                    <label class="agee" for="age">Age :</label>
+                    <input type="number" name="Age" id="Age" placeholder="Please Enter The Age" required><br><br>
+
+                    <div class="gen">
+                        <label class="ge" for="gender">Gender :</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label><br><br>
+                    </div>
+
+                    <label class="heig" for="Height">Height :</label>
+                    <input type="number" name="Height" id="Height" placeholder="Height in cm  ex.171" required><br><br>
+
+                    <button id="check" type="button" onclick="checkGender()">Check</button>
+
+         <h4>Weight Category :</h4>
+<p id="result"></p>
+
+<div class="button-group">
+  <a href="bulk.html"><button id="bulk" type="button">Bulking</button></a>
+  <a href="gain.html"><button id="gain" type="button">Weight Gain</button></a>
+  <a href="loss.html"><button id="loss" type="button">Weight Loss</button></a>
+</div>
+
+                </form>
+            </div>
+        </center>
+    </body>
+</html>
